@@ -1,0 +1,52 @@
+
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/fuentes";
+@import "../base/extends";
+@import "../base/colores";
+@import "../base/mapas";
+@import "../base/mediaqueris";
+
+.section-general {
+    margin: 5rem 1.5rem 6rem 1.5rem;
+
+    h1 {
+        padding-top: 1.5rem;
+        margin: 1rem 0rem 3rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: $fsize-113;
+        margin: 0rem 1rem 1rem;
+    }
+}
+
+.section-descriptivo-general {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.6rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.descriptivo-general-imagen {
+    border: 0.1rem solid white;
+    width: 100%;
+    padding-top: 0.5rem; 
+
+    img {
+        height: 250px;
+        width: 350px;
+        border-radius: 0.1rem; 
+    }
+    
+    h2, h3 {
+        margin-top: 1rem;
+    }
+
+        &:hover {
+            box-shadow: 7px 13px 37px nth($colores, 3);
+        }
+}

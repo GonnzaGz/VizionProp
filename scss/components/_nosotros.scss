@@ -1,0 +1,30 @@
+
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/fuentes";
+@import "../base/extends";
+@import "../base/colores";
+@import "../base/mapas";
+@import "../base/mediaqueris";
+
+.nosotros-fondo {
+    background-image: url(/Vizion-Propiedades/src/multimedia/fotos/mikita-yo-yHg6p8vW_Is-unsplash.jpg);
+    text-align: center;
+    text-decoration: none;
+    height: 150px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5rem 0rem 30rem;
+    padding-top: 1rem;
+
+    p {
+        margin: 0rem 2rem 0rem 2rem;
+        padding-top: 5rem;
+    }
+}
+
+.h1-nosotros {
+    text-shadow: 1px 1px 1px black;
+}

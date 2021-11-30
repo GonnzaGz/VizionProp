@@ -1,0 +1,94 @@
+
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/fuentes";
+@import "../base/extends";
+@import "../base/colores";
+@import "../base/mapas";
+@import "../base/mediaqueris";
+
+.footer-section {
+    margin: 5rem 2.5rem 1.5rem 2.5rem;
+    text-align: center;
+    font-weight: initial;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.contacto {
+    padding-bottom: 10.1rem;
+
+    p {
+        margin: auto;
+    }
+}
+
+.servicios {
+    padding-bottom: 7.1rem;
+
+    p {
+        margin: auto;
+    }
+}
+
+.redes {
+    padding-bottom: 10.1rem;
+
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        a img {
+            height: 30px;
+            width: 30px;
+        }
+    }    
+}
+
+.comuniquese {
+    padding-bottom: 10.1rem;
+    width: 12rem;
+    margin-bottom: -12.8rem;
+}
+
+.formulario-1 {
+    width: 10rem;
+    margin-bottom: 0.3rem;
+}
+
+.formulario-2 {
+    width: 10rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.formulario-boton {
+    border-radius: 0.1rem;
+    letter-spacing: $space-02;
+}
+
+.ubicacion {
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    p {
+        margin: auto 0rem 1rem 0rem;
+    }
+
+}
+
+.ubicacion-2 {
+    display: none;
+}
+
+.animacion-2 {
+    transition: 1s;
+
+    &:hover {
+    transition: all 1s ease;
+    transform: scale(1.3);
+    }
+}

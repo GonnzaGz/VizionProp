@@ -1,0 +1,111 @@
+
+$colores:
+black,
+white,
+grey,
+#800040;
+
+// main
+
+main {
+    background-color: nth($colores, 2);
+}
+
+
+// main-principal
+
+.frase-principal {
+    color: nth($colores, 2);
+}
+
+.buscador {
+    color: nth($colores, 2);
+}
+
+.boton {
+    color: nth($colores, 2);
+
+    &:hover {
+        color: nth($colores, 2);
+    }
+}
+
+.section-destacadas {
+    color: nth($colores, 1);
+}
+
+.deco-none { 
+    color: nth($colores, 1);
+
+    &:hover {
+        color: nth($colores, 1);
+    }
+}
+
+.section-servicios {
+    color: nth($colores, 1);
+}
+
+.section-newsletter {
+    color: nth($colores, 2);
+    background-color: nth($colores, 4) ;
+}
+
+.newsletter-boton {
+    color: nth($colores, 2);
+    background-color: nth($colores, 1);
+}
+
+
+// footer
+
+.footer-section {
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+}
+
+.servicios {
+
+    &:hover {
+        color: nth($colores, 1);
+    }
+}
+
+.formulario-boton {
+    color: nth($colores, 2);
+    background-color: nth($colores, 1);
+}
+
+
+// main-secundario
+
+.section-general {
+    color: nth($colores, 1);
+}
+
+.section-descriptivo-general {
+    color: nth($colores, 1);
+}
+
+
+// nosotros
+
+.nosotros-fondo {
+    color: nth($colores, 2);
+
+    p {
+        color: nth($colores, 1);        
+    }
+}
+
+
+// main-terceario
+
+.section-descriptivo {
+    color: nth($colores, 1);
+}
+
+.formulario-boton-2 {
+    color: nth($colores, 2);
+    background-color: nth($colores, 1);
+}

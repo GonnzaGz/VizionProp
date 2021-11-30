@@ -1,0 +1,17 @@
+
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/fuentes";
+@import "../base/extends";
+@import "../base/colores";
+@import "../base/mapas";
+@import "../base/mediaqueris";
+
+.spacing {
+    letter-spacing: $space-02;
+}
+
+.tamaño-idioma {
+    margin-left: -2.7rem;
+}

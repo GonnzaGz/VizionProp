@@ -1,0 +1,3511 @@
+@charset "UTF-8";
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-descriptivo-general, .section-destacadas {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.spacing {
+  letter-spacing: 0.2rem;
+}
+
+.tamaño-idioma {
+  margin-left: -2.7rem;
+}
+
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.container-2 {
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+.section-parrafo {
+  font-weight: initial;
+}
+
+.section-destacadas {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.6rem;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+.propiedad-destacada {
+  width: 100%;
+  padding-top: 0.5rem;
+  border: 0.1rem solid white;
+}
+.propiedad-destacada img {
+  height: 250px;
+  width: 279px;
+  border-radius: 0.1rem;
+}
+.propiedad-destacada h2, .propiedad-destacada h3 {
+  margin-top: 1rem;
+}
+.propiedad-destacada:hover {
+  box-shadow: 7px 13px 37px grey;
+}
+
+.h2-destacadas {
+  margin-bottom: 1rem;
+  text-align: center;
+  margin: 3rem 0rem 2rem 0rem;
+}
+
+.deco-none {
+  text-decoration: inherit;
+}
+
+.h2-servicios {
+  margin: 3rem 0rem 3rem 0rem;
+  text-align: center;
+}
+
+.section-servicios {
+  margin: 3rem 1.5rem 2rem 1.5rem;
+  display: flex;
+}
+.section-servicios h3 {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+.section-servicios p {
+  font-weight: initial;
+}
+
+.section-newsletter {
+  margin: 5rem 0rem 8rem 0rem;
+  padding: 3rem 0rem 4rem 0rem;
+  text-align: center;
+}
+
+.newsletter-boton {
+  border-radius: 0.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.animacion {
+  transition: 1s;
+}
+.animacion:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+
+.logo-comunicate {
+  position: sticky;
+}
+
+.logowpp {
+  position: sticky;
+  width: 75px;
+  z-index: 100;
+  margin-left: 72rem;
+  top: 0;
+  left: 0;
+}
+
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.footer-section {
+  margin: 5rem 2.5rem 1.5rem 2.5rem;
+  text-align: center;
+  font-weight: initial;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.contacto {
+  padding-bottom: 10.1rem;
+}
+.contacto p {
+  margin: auto;
+}
+
+.servicios {
+  padding-bottom: 7.1rem;
+}
+.servicios p {
+  margin: auto;
+}
+
+.redes {
+  padding-bottom: 10.1rem;
+}
+.redes .iconos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.redes .iconos a img {
+  height: 30px;
+  width: 30px;
+}
+
+.comuniquese {
+  padding-bottom: 10.1rem;
+  width: 12rem;
+  margin-bottom: -12.8rem;
+}
+
+.formulario-1 {
+  width: 10rem;
+  margin-bottom: 0.3rem;
+}
+
+.formulario-2 {
+  width: 10rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+.formulario-boton {
+  border-radius: 0.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.ubicacion {
+  margin-bottom: 0rem;
+  padding-top: 0rem;
+}
+.ubicacion p {
+  margin: auto 0rem 1rem 0rem;
+}
+
+.ubicacion-2 {
+  display: none;
+}
+
+.animacion-2 {
+  transition: 1s;
+}
+.animacion-2:hover {
+  transition: all 1s ease;
+  transform: scale(1.3);
+}
+
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.section-general {
+  margin: 5rem 1.5rem 6rem 1.5rem;
+}
+.section-general h1 {
+  padding-top: 1.5rem;
+  margin: 1rem 0rem 3rem;
+  text-align: center;
+}
+.section-general p {
+  text-align: center;
+  font-size: 1.13rem;
+  margin: 0rem 1rem 1rem;
+}
+
+.section-descriptivo-general {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.6rem;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+.descriptivo-general-imagen {
+  border: 0.1rem solid white;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+.descriptivo-general-imagen img {
+  height: 250px;
+  width: 350px;
+  border-radius: 0.1rem;
+}
+.descriptivo-general-imagen h2, .descriptivo-general-imagen h3 {
+  margin-top: 1rem;
+}
+.descriptivo-general-imagen:hover {
+  box-shadow: 7px 13px 37px grey;
+}
+
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.nosotros-fondo {
+  background-image: url(/Vizion-Propiedades/src/multimedia/fotos/mikita-yo-yHg6p8vW_Is-unsplash.jpg);
+  text-align: center;
+  text-decoration: none;
+  height: 150px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5rem 0rem 30rem;
+  padding-top: 1rem;
+}
+.nosotros-fondo p {
+  margin: 0rem 2rem 0rem 2rem;
+  padding-top: 5rem;
+}
+
+.h1-nosotros {
+  text-shadow: 1px 1px 1px black;
+}
+
+.section-parrafo {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-destacadas {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h2-destacadas {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.h2-servicios {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.section-servicios {
+  font-size: 1.13rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-servicios h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.section-newsletter {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-general h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo-general {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.h1-nosotros p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-descriptivo h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.section-descriptivo p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+main {
+  background-color: white;
+}
+
+.frase-principal {
+  color: white;
+}
+
+.buscador {
+  color: white;
+}
+
+.boton {
+  color: white;
+}
+.boton:hover {
+  color: white;
+}
+
+.section-destacadas {
+  color: black;
+}
+
+.deco-none {
+  color: black;
+}
+.deco-none:hover {
+  color: black;
+}
+
+.section-servicios {
+  color: black;
+}
+
+.section-newsletter {
+  color: white;
+  background-color: #800040;
+}
+
+.newsletter-boton {
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+}
+
+.servicios:hover {
+  color: black;
+}
+
+.formulario-boton {
+  color: white;
+  background-color: black;
+}
+
+.section-general {
+  color: black;
+}
+
+.section-descriptivo-general {
+  color: black;
+}
+
+.nosotros-fondo {
+  color: white;
+}
+.nosotros-fondo p {
+  color: black;
+}
+
+.section-descriptivo {
+  color: black;
+}
+
+.formulario-boton-2 {
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-destacadas, .section-descriptivo-general {
+  display: grid;
+  text-align: center;
+}
+
+.transparencia {
+  border-color: black;
+}
+.transparencia:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media queris */
+/* Desktop */
+@media (max-width: 1240px) {
+  .section-destacadas {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 25%;
+    margin-left: 19.5%;
+    margin-right: 19.5%;
+    column-gap: 2rem;
+  }
+
+  .contacto {
+    padding-bottom: 4.78rem;
+  }
+
+  .redes {
+    padding-bottom: 4.8rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.6rem;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 27rem 1rem 27rem;
+  }
+
+  .ubicacion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    letter-spacing: 0.2em;
+    font-weight: initial;
+  }
+
+  .iframe-map {
+    height: auto;
+    width: 62rem;
+    margin: auto;
+    position: static;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .section-destacadas {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat 2, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Tableta */
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: 0rem;
+  }
+
+  .iconos a img {
+    margin-left: 2.7rem;
+  }
+
+  .comuniquese {
+    margin-left: 0rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 21rem 1rem 21rem;
+  }
+
+  .iframe-map {
+    width: 49rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+/* Mobile */
+@media (min-width: 280px) and (max-width: 479px) {
+  .section-destacadas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    column-gap: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat 4, 1fr;
+  }
+
+  .footer-section ul {
+    border: white solid;
+  }
+
+  .contacto {
+    padding-bottom: 3.5rem;
+  }
+
+  .servicios {
+    padding-bottom: -1rem;
+  }
+
+  .redes p {
+    margin-left: -3rem;
+  }
+
+  .iconos a img {
+    margin-left: 1.6rem;
+  }
+
+  .comuniquese {
+    margin-left: -2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .ubicacion {
+    display: none;
+  }
+
+  .ubicacion-2 p {
+    margin: 0 8rem 1rem 8rem;
+  }
+
+  .iframe-map {
+    width: 30rem;
+  }
+
+  .descriptivo-general-imagen {
+    display: grid;
+  }
+
+  .section-descriptivo-general {
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0em;
+    margin: 0em 2em 0em 2em;
+  }
+
+  .nosotros-fondo {
+    margin-bottom: 40rem;
+  }
+}
+.section-descriptivo {
+  text-align: center;
+  margin: 3rem 2rem 10rem 2rem;
+}
+.section-descriptivo h1 {
+  margin-top: 2rem;
+}
+.section-descriptivo p {
+  margin-top: 2rem;
+}
+
+.section-descriptivo-imagenes {
+  border: 0.1rem solid white;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+.section-descriptivo-imagenes img {
+  height: 350px;
+  width: 500px;
+  border-radius: 0.1rem;
+  margin: 0rem 1rem 1rem 0rem;
+  transition: 1s;
+}
+.section-descriptivo-imagenes:hover {
+  box-shadow: 7px 13px 37px grey;
+}
+
+.animacion-3 {
+  transition: 1s;
+}
+.animacion-3:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+
+.consultas {
+  margin: auto;
+  width: 30rem;
+}
+
+.formulario-consulta {
+  width: 30rem;
+  margin-bottom: 0.5rem;
+}
+
+.formulario-consulta-2 {
+  width: 30rem;
+  padding-bottom: 4rem;
+  margin-bottom: 1rem;
+}
+
+.formulario-boton-2 {
+  border-radius: 0.1rem;
+  letter-spacing: 0.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

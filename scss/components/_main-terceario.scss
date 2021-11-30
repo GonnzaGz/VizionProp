@@ -1,0 +1,70 @@
+
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/listas";
+@import "../base/fuentes";
+@import "../base/extends";
+@import "../base/colores";
+@import "../base/mapas";
+@import "../base/mediaqueris";
+
+.section-descriptivo {
+    text-align: center;
+    margin: 3rem 2rem 10rem 2rem;
+
+    h1 {
+        margin-top: 2rem;
+    }
+    
+    p {
+        margin-top: 2rem;
+    }
+}
+
+.section-descriptivo-imagenes {
+    border: 0.1rem solid white;
+    width: 100%;
+    padding-top: 0.5rem;
+
+    img {
+        height: 350px;
+        width: 500px;
+        border-radius: 0.1rem;
+        margin: 0rem 1rem 1rem 0rem;
+        transition: 1s;
+    }
+
+        &:hover {
+            box-shadow: 7px 13px 37px nth($colores, 3);
+        }
+}
+
+.animacion-3 {
+    transition: 1s;
+
+    &:hover {
+    transition: all 1s ease;
+    transform: scale(1.05);
+    }
+}
+
+.consultas {
+    margin: auto;
+    width: 30rem;
+}
+
+.formulario-consulta {
+    width: 30rem;
+    margin-bottom: 0.5rem;
+}
+
+.formulario-consulta-2 {
+    width: 30rem;
+    padding-bottom: 4rem;
+    margin-bottom: 1rem;
+}
+
+.formulario-boton-2 {
+    border-radius: 0.1rem;
+    letter-spacing: $space-02;
+}

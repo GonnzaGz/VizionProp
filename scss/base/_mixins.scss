@@ -1,0 +1,82 @@
+
+@mixin prefij-font-space($fontsize, $letterspacing) {
+    font-size: $fontsize;
+    letter-spacing: $letterspacing;
+}
+
+// header
+
+// main-principal
+
+.section-parrafo {
+    @include prefij-font-space($fsize-113, $space-01)
+}
+
+.section-destacadas {
+    @include prefij-font-space($fsize-1, $space-02)
+}
+
+.h2-destacadas {
+    @include prefij-font-space($fsize-2, $space-05)
+}
+
+.h2-servicios {
+    @include prefij-font-space($fsize-2, $space-05)
+}
+
+.section-servicios {
+    @include prefij-font-space($fsize-113, $space-01)
+}
+
+.section-servicios h3 {
+    @include prefij-font-space($fsize-15, $space-03)
+}
+
+.section-newsletter {
+@include prefij-font-space($fsize-15, $space-05)
+}
+
+
+//footer
+
+.footer-section {
+    @include prefij-font-space($fsize-1, $space-02)
+}
+
+//main-secundario
+
+.section-general {
+    @include prefij-font-space($fsize-1, $space-02)
+}
+
+.section-general h1 {
+    @include prefij-font-space($fsize-2, $space-02)
+}
+
+.section-descriptivo-general {
+    @include prefij-font-space($fsize-1, $space-02)
+}
+
+//nosotros
+
+.h1-nosotros {
+    @include prefij-font-space($fsize-2, $space-02)
+}
+
+.h1-nosotros p {
+    @include prefij-font-space($fsize-15, $space-01)
+}
+
+//main-terceario
+
+.section-descriptivo h1 {
+    @include prefij-font-space($fsize-2, $space-02)
+}
+
+.section-descriptivo h2 {
+    @include prefij-font-space($fsize-15, $space-02)
+}
+
+.section-descriptivo p {
+    @include prefij-font-space($fsize-1, $space-01)
+}

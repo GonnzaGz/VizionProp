@@ -1,0 +1,21 @@
+
+$standard: (
+    color-bg-std:  white,
+    color-f-std: black,
+);
+
+$oscuro: (
+    color-bg-oscuro: #0a0a0a,
+    color-f-oscuro: white,
+);
+
+
+// .standard {
+//     background-color: map-get($standard, $color-bg-std);
+//     color: map-get($standard, $color-f-std);
+// }
+
+// .oscuro {
+//     background-color: map-get($oscuro, $color-bg-std);
+//     color: map-get($oscuro, $color-f-oscuro);
+// }

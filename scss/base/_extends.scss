@@ -1,0 +1,29 @@
+%grid {
+    display: grid;
+    text-align: center;
+}
+
+//header
+
+//main-primario
+
+.section-destacadas {
+    @extend %grid;
+}
+
+//footer
+
+
+
+//main-secundario
+
+.section-descriptivo-general {
+    @extend %grid;
+}
+
+//nosotros
+
+
+
+//main-terceario
+
