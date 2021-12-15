@@ -2,8 +2,9 @@
 $colores:
 black,
 white,
-grey,
-#800040;
+rgb(194, 194, 194),
+#800040,
+#0aa543;
 
 // main
 
@@ -46,6 +47,11 @@ main {
     color: nth($colores, 1);
 }
 
+.boton-mas {
+    color: nth($colores, 2);
+    background-color: nth($colores, 4);
+}
+
 .section-newsletter {
     color: nth($colores, 2);
     background-color: nth($colores, 4) ;
@@ -55,7 +61,6 @@ main {
     color: nth($colores, 2);
     background-color: nth($colores, 1);
 }
-
 
 // footer
 

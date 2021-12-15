@@ -8,6 +8,18 @@
 
 // main-principal
 
+.block-3 h2 {
+    @include prefij-font-space($fsize-2, $space-02)
+}
+
+.block-3 p {
+    @include prefij-font-space($fsize-1, $space-01)
+}
+
+.block-5 h2 {
+    @include prefij-font-space($fsize-2, $space-03)
+}
+
 .section-parrafo {
     @include prefij-font-space($fsize-113, $space-01)
 }
@@ -25,7 +37,7 @@
 }
 
 .section-servicios {
-    @include prefij-font-space($fsize-113, $space-01)
+    @include prefij-font-space($fsize-1, $space-01)
 }
 
 .section-servicios h3 {
@@ -35,7 +47,6 @@
 .section-newsletter {
 @include prefij-font-space($fsize-15, $space-05)
 }
-
 
 //footer
 
@@ -60,11 +71,23 @@
 //nosotros
 
 .h1-nosotros {
-    @include prefij-font-space($fsize-2, $space-02)
+    @include prefij-font-space($fsize-3, $space-03)
 }
 
 .h1-nosotros p {
     @include prefij-font-space($fsize-15, $space-01)
+}
+
+.servicios-nosotros h2 {
+    @include prefij-font-space($fsize-2, $space-03)
+}
+
+.servicios-nosotros h3 {
+    @include prefij-font-space($fsize-15, $space-03)
+}
+
+.servicios-nosotros p {
+    @include prefij-font-space($fsize-113, $space-01)
 }
 
 //main-terceario

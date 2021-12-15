@@ -25,6 +25,7 @@
     border: 0.1rem solid white;
     width: 100%;
     padding-top: 0.5rem;
+    transition: 1s;
 
     img {
         height: 350px;
@@ -50,21 +51,28 @@
 
 .consultas {
     margin: auto;
-    width: 30rem;
+    width: 30.5rem;
 }
 
 .formulario-consulta {
-    width: 30rem;
+    width: 15rem;
     margin-bottom: 0.5rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
 }
 
 .formulario-consulta-2 {
-    width: 30rem;
+    width: 30.2rem;
     padding-bottom: 4rem;
     margin-bottom: 1rem;
 }
 
 .formulario-boton-2 {
-    border-radius: 0.1rem;
+    border-radius: 0.3rem;
     letter-spacing: $space-02;
+}
+
+.espacio-2 {
+    margin-bottom: 2rem;
 }

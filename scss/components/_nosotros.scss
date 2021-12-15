@@ -9,7 +9,7 @@
 @import "../base/mediaqueris";
 
 .nosotros-fondo {
-    background-image: url(/Vizion-Propiedades/src/multimedia/fotos/mikita-yo-yHg6p8vW_Is-unsplash.jpg);
+    background-image: url(/Vizion-Propiedades/src/multimedia/fotos/floriane-vita-FyD3OWBuXnY-unsplash.jpg);
     text-align: center;
     text-decoration: none;
     height: 150px;
@@ -20,11 +20,28 @@
     padding-top: 1rem;
 
     p {
-        margin: 0rem 2rem 0rem 2rem;
+        margin: 0rem 2rem -3rem 2rem;
         padding-top: 5rem;
     }
 }
 
 .h1-nosotros {
     text-shadow: 1px 1px 1px black;
+}
+
+.servicios-nosotros {
+    margin: 0rem 3rem 15rem 3rem;
+
+        h2 {
+            margin: 2rem 0rem 3rem 0rem ;
+            text-align: center;
+        }
+
+        h3 {
+            margin: 0rem 0rem 2rem 0rem ;
+        }
+
+        p {
+            margin: 0rem 0rem 5rem 0rem ;
+        }
 }
