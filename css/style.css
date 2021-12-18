@@ -219,6 +219,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -228,16 +233,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -291,6 +322,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -302,11 +365,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -314,7 +381,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -351,19 +419,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -375,20 +493,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -434,6 +552,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -445,7 +597,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -453,16 +605,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -713,6 +867,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -722,16 +881,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -785,6 +970,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -796,11 +1013,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -808,7 +1029,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -845,19 +1067,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -869,20 +1141,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -928,6 +1200,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -939,7 +1245,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -947,16 +1253,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -1215,6 +1523,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1224,16 +1537,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -1287,6 +1626,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1298,11 +1669,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -1310,7 +1685,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -1347,19 +1723,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -1371,20 +1797,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -1430,6 +1856,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1441,7 +1901,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -1449,16 +1909,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -1961,6 +2423,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1970,16 +2437,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -2033,6 +2526,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2044,11 +2569,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -2056,7 +2585,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -2093,19 +2623,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -2117,20 +2697,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -2176,6 +2756,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2187,7 +2801,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -2195,16 +2809,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -2534,6 +3150,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -2543,16 +3164,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -2606,6 +3253,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2617,11 +3296,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -2629,7 +3312,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -2666,19 +3350,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -2690,20 +3424,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -2749,6 +3483,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2760,7 +3528,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -2768,16 +3536,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3070,6 +3840,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -3079,16 +3854,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -3142,6 +3943,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -3153,11 +3986,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -3165,7 +4002,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3202,19 +4040,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -3226,20 +4114,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3285,6 +4173,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3296,7 +4218,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -3304,16 +4226,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3598,6 +4522,11 @@ body {
 /* Media queris */
 /* Desktop */
 @media (max-width: 1240px) {
+  .section-parrafo {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -3607,16 +4536,42 @@ body {
     column-gap: 2rem;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
   .contacto {
-    padding-bottom: 4.78rem;
+    padding-bottom: 20rem;
+  }
+
+  .servicios {
+    padding-bottom: 17rem;
   }
 
   .redes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 20rem;
   }
 
   .comuniquese {
-    padding-bottom: 5.6rem;
+    padding-bottom: 13rem;
   }
 
   .iconos {
@@ -3670,6 +4625,38 @@ body {
     margin-right: 11.8%;
   }
 
+  .block-1 {
+    width: 80%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 70%;
+  }
+
+  .block-3 {
+    width: 56%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-top: 20rem;
+    margin-right: -1rem;
+    z-index: 1000;
+  }
+
+  .block-6 {
+    margin-top: 5rem;
+  }
+
+  .block-7 {
+    margin-top: 3rem;
+  }
+
+  .block-8 {
+    width: 90%;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -3681,11 +4668,15 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    margin-top: 0rem;
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    padding-bottom: -20rem;
+  }
+
+  .redes {
+    margin-top: 2rem;
   }
 
   .iconos a img {
@@ -3693,7 +4684,8 @@ body {
   }
 
   .comuniquese {
-    padding-bottom: 5.5rem;
+    margin-top: 0rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3730,19 +4722,69 @@ body {
 }
 /* Tableta */
 @media (min-width: 480px) and (max-width: 767px) {
+  .h2-destacadas {
+    margin-top: 41rem;
+  }
+
   .section-destacadas {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
     width: 25%;
+    margin-top: 7rem;
     margin-left: 11.8%;
     margin-right: 11.8%;
     column-gap: 2rem;
+  }
+
+  .block-1 {
+    width: 5%;
+    margin-right: 30rem;
+  }
+
+  .block-2 {
+    display: none;
+  }
+
+  .block-3 {
+    width: 70%;
+    margin-left: -3rem;
+  }
+  .block-3 h2 {
+    font-size: 1.5rem;
+    margin-left: -13.5rem;
+    margin-top: 3.8rem;
+  }
+  .block-3 p {
+    margin-top: 1.5rem;
+  }
+
+  .block-4 img {
+    display: none;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-6 img {
+    display: none;
+  }
+
+  .block-7 img {
+    width: 100%;
+    margin-left: -5rem;
+    margin-top: 14rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
   }
 
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat 4, 1fr;
+    margin-top: 15rem;
   }
 
   .footer-section ul {
@@ -3754,20 +4796,20 @@ body {
   }
 
   .servicios {
-    padding-bottom: -1rem;
+    margin-top: 10rem;
   }
 
   .redes p {
-    margin-left: 0rem;
+    margin-top: 0rem 0rem 0rem 0rem;
   }
 
   .iconos a img {
-    margin-left: 2.7rem;
+    margin-left: 5rem;
   }
 
   .comuniquese {
-    margin-left: 0rem;
-    padding-bottom: 5.5rem;
+    margin: -5rem 0rem 0rem 7rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
@@ -3813,6 +4855,40 @@ body {
     column-gap: 2rem;
   }
 
+  .block-general {
+    display: none;
+  }
+
+  .block-general-2 {
+    display: none;
+  }
+
+  .block-1 {
+    width: 10%;
+    margin-right: -14rem;
+  }
+
+  .block-2 {
+    width: 10%;
+  }
+
+  .block-3 {
+    width: 16%;
+    margin-left: -7rem;
+  }
+
+  .block-5 {
+    margin-right: -1rem;
+  }
+
+  .block-8 {
+    margin-right: 3rem;
+  }
+
+  .section-newsletter {
+    margin-top: 25rem;
+  }
+
   .footer-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3824,7 +4900,7 @@ body {
   }
 
   .contacto {
-    padding-bottom: 3.5rem;
+    padding-bottom: 6rem;
   }
 
   .servicios {
@@ -3832,16 +4908,18 @@ body {
   }
 
   .redes p {
-    margin-left: -3rem;
+    margin-left: 0rem;
+    margin-top: -11rem;
   }
 
   .iconos a img {
-    margin-left: 1.6rem;
+    margin-left: 3rem;
   }
 
   .comuniquese {
-    margin-left: -2rem;
-    padding-bottom: 5.5rem;
+    margin-left: 4rem;
+    margin-top: -20rem;
+    padding-bottom: 15rem;
   }
 
   .ubicacion {
